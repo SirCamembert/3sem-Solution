@@ -1,0 +1,44 @@
+@prefix props:	<https://w3id.org/props#> .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix bot:	<https://w3id.org/bot#> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+@prefix ex:		<https://example.org/> .
+@prefix inst:	<https://some-architect.com/projects/001-00/> .
+
+# WALLTYPES
+inst:Exterior_-_Brick_on_Mtl._Stud
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Exterior - Brick on Mtl. Stud" .
+inst:Exterior_-_Brick_Over_Block_w_Metal_Stud
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Exterior - Brick Over Block w Metal Stud" .
+inst:Exterior_-_Block_on_Mtl._Stud
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Exterior - Block on Mtl. Stud" .
+inst:Wall_-_Timber_Clad
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Wall - Timber Clad" .
+inst:Interior_-_165_Partition_1-hr
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Interior - 165 Partition (1-hr)" .
+inst:Interior_-_Partition
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Interior - Partition" .
+inst:SIP_202mm_Wall_-_conc_clad
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "SIP 202mm Wall - conc clad" .
+inst:SH_Curtain_wall
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "SH_Curtain wall" .
+inst:Foundation_-_300mm_Concrete
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Foundation - 300mm Concrete" .
+inst:CL_W1
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "CL_W1" .
+inst:Retaining_-_300mm_Concrete
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Retaining - 300mm Concrete" .
+inst:Cavity_wall_sliders
+	rdfs:subClassOf bot:Element ;
+	rdfs:label "Cavity wall_sliders" .

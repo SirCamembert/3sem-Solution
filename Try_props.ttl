@@ -1,0 +1,462 @@
+@prefix props:	<https://w3id.org/props#> .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+@prefix ex:		<https://example.org/> .
+@prefix inst:	<https://some-architect.com/projects/001-00/> .
+
+### ELEMENTS ###
+
+# WALLS
+inst:ścian_3ZGD7y6S5209%24mGLl19Mmx
+props:identityDataName "SIP 202mm Wall - conc clad" .
+inst:ścian_3ZGD7y6S5209%24mGLl19Mmx
+props:dimensionsWidth "202"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl19Mmx
+props:dimensionsLength "6202"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl19Mn0
+props:identityDataName "Wall - Timber Clad" .
+inst:ścian_3ZGD7y6S5209%24mGLl19Mn0
+props:dimensionsWidth "202"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl19Mn0
+props:dimensionsLength "4580"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl19V5e
+props:identityDataName "Wall - Timber Clad" .
+inst:ścian_3ZGD7y6S5209%24mGLl19V5e
+props:dimensionsWidth "202"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl19V5e
+props:dimensionsLength "4661"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl180K2
+props:identityDataName "Wall - Timber Clad" .
+inst:ścian_3ZGD7y6S5209%24mGLl180K2
+props:dimensionsWidth "202"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl180K2
+props:dimensionsLength "3200"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl181L_
+props:identityDataName "Wall - Timber Clad" .
+inst:ścian_3ZGD7y6S5209%24mGLl181L_
+props:dimensionsWidth "202"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl181L_
+props:dimensionsLength "3041"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1812c
+props:identityDataName "SH_Curtain wall" .
+inst:ścian_3ZGD7y6S5209%24mGLl1812c
+props:dimensionsWidth "25"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1812c
+props:dimensionsLength "3000"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl181%247
+props:identityDataName "Interior - 165 Partition (1-hr)" .
+inst:ścian_3ZGD7y6S5209%24mGLl181%247
+props:dimensionsWidth "165.1"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl181%247
+props:dimensionsLength "3041"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl181iC
+props:identityDataName "Interior - 165 Partition (1-hr)" .
+inst:ścian_3ZGD7y6S5209%24mGLl181iC
+props:dimensionsWidth "165.1"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl181iC
+props:dimensionsLength "2558.45"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl18E19
+props:identityDataName "Wall - Timber Clad" .
+inst:ścian_3ZGD7y6S5209%24mGLl18E19
+props:dimensionsWidth "202"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl18E19
+props:dimensionsLength "19822"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl18Eun
+props:identityDataName "SIP 202mm Wall - conc clad" .
+inst:ścian_3ZGD7y6S5209%24mGLl18Eun
+props:dimensionsWidth "202"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl18Eun
+props:dimensionsLength "19702"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl18ExK
+props:identityDataName "SIP 202mm Wall - conc clad" .
+inst:ścian_3ZGD7y6S5209%24mGLl18ExK
+props:dimensionsWidth "202"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl18ExK
+props:dimensionsLength "19702"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl18ExW
+props:identityDataName "SH_Curtain wall" .
+inst:ścian_3ZGD7y6S5209%24mGLl18ExW
+props:dimensionsWidth "25"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl18ExW
+props:dimensionsLength "6202"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl18EkH
+props:identityDataName "Interior - Partition" .
+inst:ścian_3ZGD7y6S5209%24mGLl18EkH
+props:dimensionsWidth "120"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl18EkH
+props:dimensionsLength "6202"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl18Elj
+props:identityDataName "Interior - Partition" .
+inst:ścian_3ZGD7y6S5209%24mGLl18Elj
+props:dimensionsWidth "120"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl18Elj
+props:dimensionsLength "11380"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl18FJp
+props:identityDataName "Interior - Partition" .
+inst:ścian_3ZGD7y6S5209%24mGLl18FJp
+props:dimensionsWidth "120"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl18FJp
+props:dimensionsLength "2824"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl18FK4
+props:identityDataName "Interior - Partition" .
+inst:ścian_3ZGD7y6S5209%24mGLl18FK4
+props:dimensionsWidth "120"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl18FK4
+props:dimensionsLength "2880"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl18FLH
+props:identityDataName "Interior - Partition" .
+inst:ścian_3ZGD7y6S5209%24mGLl18FLH
+props:dimensionsWidth "120"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl18FLH
+props:dimensionsLength "2157"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl18FSM
+props:identityDataName "Interior - Partition" .
+inst:ścian_3ZGD7y6S5209%24mGLl18FSM
+props:dimensionsWidth "120"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl18FSM
+props:dimensionsLength "4661"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl18Umn
+props:identityDataName "CL_W1" .
+inst:ścian_3ZGD7y6S5209%24mGLl18Umn
+props:dimensionsWidth "280"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl18Umn
+props:dimensionsLength "9628.06"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl18UoS
+props:identityDataName "CL_W1" .
+inst:ścian_3ZGD7y6S5209%24mGLl18UoS
+props:dimensionsWidth "280"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl18UoS
+props:dimensionsLength "21026.02"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl18Up3
+props:identityDataName "CL_W1" .
+inst:ścian_3ZGD7y6S5209%24mGLl18Up3
+props:dimensionsWidth "280"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl18Up3
+props:dimensionsLength "15750.14"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl18Uqg
+props:identityDataName "Foundation - 300mm Concrete" .
+inst:ścian_3ZGD7y6S5209%24mGLl18Uqg
+props:dimensionsWidth "300"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl18Uqg
+props:dimensionsLength "8946.55"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl18VEP
+props:identityDataName "Interior - Partition" .
+inst:ścian_3ZGD7y6S5209%24mGLl18VEP
+props:dimensionsWidth "120"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl18VEP
+props:dimensionsLength "2440"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl18TuF
+props:identityDataName "Interior - Partition" .
+inst:ścian_3ZGD7y6S5209%24mGLl18TuF
+props:dimensionsWidth "120"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl18TuF
+props:dimensionsLength "1200"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl18T_m
+props:identityDataName "Interior - Partition" .
+inst:ścian_3ZGD7y6S5209%24mGLl18T_m
+props:dimensionsWidth "120"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl18T_m
+props:dimensionsLength "1020"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1BdCV
+props:identityDataName "SIP 202mm Wall - conc clad" .
+inst:ścian_3ZGD7y6S5209%24mGLl1BdCV
+props:dimensionsWidth "202"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1BdCV
+props:dimensionsLength "6202"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1BqCy
+props:identityDataName "Retaining - 300mm Concrete" .
+inst:ścian_3ZGD7y6S5209%24mGLl1BqCy
+props:dimensionsWidth "300"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1BqCy
+props:dimensionsLength "7150"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1BqD%24
+props:identityDataName "Retaining - 300mm Concrete" .
+inst:ścian_3ZGD7y6S5209%24mGLl1BqD%24
+props:dimensionsWidth "300"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1BqD%24
+props:dimensionsLength "13702"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1BqEI
+props:identityDataName "Retaining - 300mm Concrete" .
+inst:ścian_3ZGD7y6S5209%24mGLl1BqEI
+props:dimensionsWidth "300"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1BqEI
+props:dimensionsLength "4150"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1B%24Lb
+props:identityDataName "CL_W1" .
+inst:ścian_3ZGD7y6S5209%24mGLl1B%24Lb
+props:dimensionsWidth "280"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1B%24Lb
+props:dimensionsLength "24690"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1B%240C
+props:identityDataName "CL_W1" .
+inst:ścian_3ZGD7y6S5209%24mGLl1B%240C
+props:dimensionsWidth "280"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1B%240C
+props:dimensionsLength "6722.76"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1B%24Cs
+props:identityDataName "CL_W1" .
+inst:ścian_3ZGD7y6S5209%24mGLl1B%24Cs
+props:dimensionsWidth "280"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1B%24Cs
+props:dimensionsLength "18449"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1B6Im
+props:identityDataName "Wall - Timber Clad" .
+inst:ścian_3ZGD7y6S5209%24mGLl1B6Im
+props:dimensionsWidth "202"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1B6Im
+props:dimensionsLength "6202"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1BDiE
+props:identityDataName "SH_Curtain wall" .
+inst:ścian_3ZGD7y6S5209%24mGLl1BDiE
+props:dimensionsWidth "25"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1BDiE
+props:dimensionsLength "6202"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1BAYN
+props:identityDataName "SH_Curtain wall" .
+inst:ścian_3ZGD7y6S5209%24mGLl1BAYN
+props:dimensionsWidth "25"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1BAYN
+props:dimensionsLength "1481"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1BAdb
+props:identityDataName "SH_Curtain wall" .
+inst:ścian_3ZGD7y6S5209%24mGLl1BAdb
+props:dimensionsWidth "25"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1BAdb
+props:dimensionsLength "1481"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1BBPW
+props:identityDataName "SH_Curtain wall" .
+inst:ścian_3ZGD7y6S5209%24mGLl1BBPW
+props:dimensionsWidth "25"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1BBPW
+props:dimensionsLength "2909"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1BGOG
+props:identityDataName "Retaining - 300mm Concrete" .
+inst:ścian_3ZGD7y6S5209%24mGLl1BGOG
+props:dimensionsWidth "300"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1BGOG
+props:dimensionsLength "10240"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1BGRc
+props:identityDataName "Retaining - 300mm Concrete" .
+inst:ścian_3ZGD7y6S5209%24mGLl1BGRc
+props:dimensionsWidth "300"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1BGRc
+props:dimensionsLength "7225.85"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1BG10
+props:identityDataName "Retaining - 300mm Concrete" .
+inst:ścian_3ZGD7y6S5209%24mGLl1BG10
+props:dimensionsWidth "300"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1BG10
+props:dimensionsLength "5000"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1BG2N
+props:identityDataName "Retaining - 300mm Concrete" .
+inst:ścian_3ZGD7y6S5209%24mGLl1BG2N
+props:dimensionsWidth "300"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1BG2N
+props:dimensionsLength "5200"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1BG4J
+props:identityDataName "Retaining - 300mm Concrete" .
+inst:ścian_3ZGD7y6S5209%24mGLl1BG4J
+props:dimensionsWidth "300"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1BG4J
+props:dimensionsLength "7095.76"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1BSfE
+props:identityDataName "Retaining - 300mm Concrete" .
+inst:ścian_3ZGD7y6S5209%24mGLl1BSfE
+props:dimensionsWidth "300"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1BSfE
+props:dimensionsLength "2840"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1BSgf
+props:identityDataName "Retaining - 300mm Concrete" .
+inst:ścian_3ZGD7y6S5209%24mGLl1BSgf
+props:dimensionsWidth "300"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1BSgf
+props:dimensionsLength "2840"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1BTsd
+props:identityDataName "Interior - Partition" .
+inst:ścian_3ZGD7y6S5209%24mGLl1BTsd
+props:dimensionsWidth "120"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1BTsd
+props:dimensionsLength "2880"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1Ae7F
+props:identityDataName "Wall - Timber Clad" .
+inst:ścian_3ZGD7y6S5209%24mGLl1Ae7F
+props:dimensionsWidth "202"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1Ae7F
+props:dimensionsLength "4700"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1AeX6
+props:identityDataName "SH_Curtain wall" .
+inst:ścian_3ZGD7y6S5209%24mGLl1AeX6
+props:dimensionsWidth "25"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1AeX6
+props:dimensionsLength "11899"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1AefH
+props:identityDataName "SH_Curtain wall" .
+inst:ścian_3ZGD7y6S5209%24mGLl1AefH
+props:dimensionsWidth "25"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1AefH
+props:dimensionsLength "6101"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1Af2L
+props:identityDataName "Wall - Timber Clad" .
+inst:ścian_3ZGD7y6S5209%24mGLl1Af2L
+props:dimensionsWidth "202"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1Af2L
+props:dimensionsLength "15202"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1AxAO
+props:identityDataName "Interior - 165 Partition (1-hr)" .
+inst:ścian_3ZGD7y6S5209%24mGLl1AxAO
+props:dimensionsWidth "165.1"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1AxAO
+props:dimensionsLength "1982.55"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1A2lI
+props:identityDataName "Interior - Partition" .
+inst:ścian_3ZGD7y6S5209%24mGLl1A2lI
+props:dimensionsWidth "120"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1A2lI
+props:dimensionsLength "1837"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1A3V3
+props:identityDataName "Interior - Partition" .
+inst:ścian_3ZGD7y6S5209%24mGLl1A3V3
+props:dimensionsWidth "120"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1A3V3
+props:dimensionsLength "2504"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1A31H
+props:identityDataName "Interior - Partition" .
+inst:ścian_3ZGD7y6S5209%24mGLl1A31H
+props:dimensionsWidth "120"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1A31H
+props:dimensionsLength "2494.9"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1A8Dj
+props:identityDataName "Interior - Partition" .
+inst:ścian_3ZGD7y6S5209%24mGLl1A8Dj
+props:dimensionsWidth "120"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1A8Dj
+props:dimensionsLength "3161"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1A8pm
+props:identityDataName "Cavity wall_sliders" .
+inst:ścian_3ZGD7y6S5209%24mGLl1A8pm
+props:dimensionsWidth "280"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1A8pm
+props:dimensionsLength "2940"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1A8ty
+props:identityDataName "SH_Curtain wall" .
+inst:ścian_3ZGD7y6S5209%24mGLl1A8ty
+props:dimensionsWidth "25"^^xsd:decimal .
+inst:ścian_3ZGD7y6S5209%24mGLl1A8ty
+props:dimensionsLength "11800"^^xsd:decimal .
+
+# WALLTYPES
+inst:Exterior_-_Brick_on_Mtl._Stud rdfs:subClassOf [ a owl:Restriction ; owl:onProperty props:dimensionsWidth ; owl:hasValue "350"^^xsd:decimal ] .
+inst:Exterior_-_Brick_Over_Block_w_Metal_Stud rdfs:subClassOf [ a owl:Restriction ; owl:onProperty props:dimensionsWidth ; owl:hasValue "460"^^xsd:decimal ] .
+inst:Exterior_-_Block_on_Mtl._Stud rdfs:subClassOf [ a owl:Restriction ; owl:onProperty props:dimensionsWidth ; owl:hasValue "460"^^xsd:decimal ] .
+inst:Wall_-_Timber_Clad rdfs:subClassOf [ a owl:Restriction ; owl:onProperty props:dimensionsWidth ; owl:hasValue "202"^^xsd:decimal ] .
+inst:Interior_-_165_Partition_1-hr rdfs:subClassOf [ a owl:Restriction ; owl:onProperty props:dimensionsWidth ; owl:hasValue "165.1"^^xsd:decimal ] .
+inst:Interior_-_Partition rdfs:subClassOf [ a owl:Restriction ; owl:onProperty props:dimensionsWidth ; owl:hasValue "120"^^xsd:decimal ] .
+inst:SIP_202mm_Wall_-_conc_clad rdfs:subClassOf [ a owl:Restriction ; owl:onProperty props:dimensionsWidth ; owl:hasValue "202"^^xsd:decimal ] .
+inst:SH_Curtain_wall rdfs:subClassOf [ a owl:Restriction ; owl:onProperty props:dimensionsWidth ; owl:hasValue "25"^^xsd:decimal ] .
+inst:Foundation_-_300mm_Concrete rdfs:subClassOf [ a owl:Restriction ; owl:onProperty props:dimensionsWidth ; owl:hasValue "300"^^xsd:decimal ] .
+inst:CL_W1 rdfs:subClassOf [ a owl:Restriction ; owl:onProperty props:dimensionsWidth ; owl:hasValue "280"^^xsd:decimal ] .
+inst:Retaining_-_300mm_Concrete rdfs:subClassOf [ a owl:Restriction ; owl:onProperty props:dimensionsWidth ; owl:hasValue "300"^^xsd:decimal ] .
+inst:Cavity_wall_sliders rdfs:subClassOf [ a owl:Restriction ; owl:onProperty props:dimensionsWidth ; owl:hasValue "280"^^xsd:decimal ] .
+
+# FLOORS
+inst:strop_3ZGD7y6S5209%24mGLl19DQv
+props:identityDataName "Generic 150mm" .
+inst:strop_3ZGD7y6S5209%24mGLl180MQ
+props:identityDataName "Generic 300" .
+inst:strop_3ZGD7y6S5209%24mGLl18Uhb
+props:identityDataName "Concrete-Domestic 425mm" .
+inst:strop_3ZGD7y6S5209%24mGLl18RQs
+props:identityDataName "Timber Suspended Floor" .
+inst:strop_3ZGD7y6S5209%24mGLl1BWIw
+props:identityDataName "Generic 300" .
+inst:strop_3ZGD7y6S5209%24mGLl1BW5o
+props:identityDataName "Generic 150mm" .
+inst:strop_3ZGD7y6S5209%24mGLl1BuRv
+props:identityDataName "Insitu Concrete 225mm" .
+inst:strop_3ZGD7y6S5209%24mGLl1BSyE
+props:identityDataName "Insitu Concrete 225mm" .
+inst:fundamenty_konstrukcyjn_3ZGD7y6S5209%24mGLl1BTQR
+props:identityDataName "150mm Foundation Slab" .
+
+# WINDOWS & DOORS
+inst:drzw_3ZGD7y6S5209%24mGLl181PV
+props:identityDataName "800 x 2100" .
+inst:drzw_3ZGD7y6S5209%24mGLl1813U
+props:identityDataName "Entrance door" .
+inst:drzw_3ZGD7y6S5209%24mGLl181bH
+props:identityDataName "800 x 2100" .
+inst:drzw_3ZGD7y6S5209%24mGLl18FU8
+props:identityDataName "800 x 2100" .
+inst:drzw_3ZGD7y6S5209%24mGLl18FV5
+props:identityDataName "800 x 2100" .
+inst:drzw_3ZGD7y6S5209%24mGLl18F0r
+props:identityDataName "800 x 2100" .
+inst:drzw_3ZGD7y6S5209%24mGLl18F13
+props:identityDataName "800 x 2100" .
+inst:okn_3ZGD7y6S5209%24mGLl189yQ
+props:identityDataName "Standard" .
+inst:okn_3ZGD7y6S5209%24mGLl189yZ
+props:identityDataName "Standard" .
+inst:okn_3ZGD7y6S5209%24mGLl189zR
+props:identityDataName "Standard" .
+inst:okn_3ZGD7y6S5209%24mGLl18Gmb
+props:identityDataName "Standard" .
+inst:drzw_3ZGD7y6S5209%24mGLl18GnH
+props:identityDataName "Curtain Wall Dbl Glass" .
+inst:drzw_3ZGD7y6S5209%24mGLl18Gqo
+props:identityDataName "800 x 2100" .
+inst:okn_3ZGD7y6S5209%24mGLl18H6i
+props:identityDataName "1180 x 1170mm" .
+inst:okn_3ZGD7y6S5209%24mGLl18H9x
+props:identityDataName "1180 x 1170mm" .
+inst:okn_3ZGD7y6S5209%24mGLl18VrB
+props:identityDataName "Standard" .
+inst:drzw_3ZGD7y6S5209%24mGLl18Tnh
+props:identityDataName "2.027 x 0.945" .
+inst:okn_3ZGD7y6S5209%24mGLl1BX6I
+props:identityDataName "Standard" .
+inst:drzw_3ZGD7y6S5209%24mGLl1BDi9
+props:identityDataName "Curtain Wall Dbl Glass" .
+inst:drzw_3ZGD7y6S5209%24mGLl1BDi3
+props:identityDataName "Curtain Wall Dbl Glass" .
+inst:okn_3ZGD7y6S5209%24mGLl1BABj
+props:identityDataName "Standard" .
+inst:drzw_3ZGD7y6S5209%24mGLl1BBPZ
+props:identityDataName "Entrance door" .
+inst:okn_3ZGD7y6S5209%24mGLl1BLvm
+props:identityDataName "Standard" .
+inst:okn_3ZGD7y6S5209%24mGLl1BL_5
+props:identityDataName "Standard" .
+inst:okn_3ZGD7y6S5209%24mGLl1BL%242
+props:identityDataName "Standard" .
+inst:okn_3ZGD7y6S5209%24mGLl1BLXN
+props:identityDataName "Standard" .
+inst:okn_3ZGD7y6S5209%24mGLl1BJXN
+props:identityDataName "Standard" .
+inst:okn_3ZGD7y6S5209%24mGLl1BJXM
+props:identityDataName "Standard" .
+inst:okn_3ZGD7y6S5209%24mGLl1BJXH
+props:identityDataName "Standard" .
+inst:okn_3ZGD7y6S5209%24mGLl1BJXG
+props:identityDataName "Standard" .
+inst:drzw_3ZGD7y6S5209%24mGLl1AxAa
+props:identityDataName "1730 x 2134mm" .
+inst:drzw_3ZGD7y6S5209%24mGLl1A3Ed
+props:identityDataName "2.027 x 0.945" .
+inst:drzw_3ZGD7y6S5209%24mGLl1A3oW
+props:identityDataName "2.027 x 0.945" .
+inst:poziom_3ZGD7y6S5209%24mGLl19cKg
+props:identityDataName "Level 1" .
+inst:poziom_3ZGD7y6S5209%24mGLl19cQh
+props:identityDataName "Ceiling" .
+inst:poziom_3ZGD7y6S5209%24mGLl19MG8
+props:identityDataName "Roof Line" .
+inst:poziom_3ZGD7y6S5209%24mGLl19Tgo
+props:identityDataName "Level 2" .
+inst:poziom_3ZGD7y6S5209%24mGLl18QYF
+props:identityDataName "Foundation" .
+inst:poziom_3ZGD7y6S5209%24mGLl18RZR
+props:identityDataName "Level 1 Living Rm." .
+
+### SPACES ###

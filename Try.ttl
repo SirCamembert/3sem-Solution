@@ -1,0 +1,588 @@
+@prefix bot:	<https://w3id.org/bot#> .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rvt:	<https://example.org/rvt#> .
+@prefix inst:	<https://some-architect.com/projects/001-00/> .
+
+### SITE ###
+inst:site_1 a bot:Site ;
+	bot:hasBuilding inst:building_1 .
+
+### BUILDING ###
+inst:building_1 a bot:Building .
+inst:building_1 bot:hasStorey inst:poziom_3ZGD7y6S5209%24mGLl19cKg .
+inst:building_1 bot:hasStorey inst:poziom_3ZGD7y6S5209%24mGLl19cQh .
+inst:building_1 bot:hasStorey inst:poziom_3ZGD7y6S5209%24mGLl19MG8 .
+inst:building_1 bot:hasStorey inst:poziom_3ZGD7y6S5209%24mGLl19Tgo .
+inst:building_1 bot:hasStorey inst:poziom_3ZGD7y6S5209%24mGLl18QYF .
+inst:building_1 bot:hasStorey inst:poziom_3ZGD7y6S5209%24mGLl18RZR .
+
+### ELEMENTS ###
+
+# WALLS
+inst:ścian_3ZGD7y6S5209%24mGLl19Mmx
+	a bot:Element , inst:SIP_202mm_Wall_-_conc_clad ;
+	rvt:id "198694" ;
+	rvt:guid "ef57b02a-5e81-49e7-93bb-ae5f002d921c-00030826" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl19Mmx" .
+inst:ścian_3ZGD7y6S5209%24mGLl19Mn0
+	a bot:Element , inst:Wall_-_Timber_Clad ;
+	rvt:id "198749" ;
+	rvt:guid "ef57b02a-5e81-49e7-93bb-ae5f002d921c-0003085d" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl19Mn0" .
+inst:ścian_3ZGD7y6S5209%24mGLl19V5e
+	a bot:Element , inst:Wall_-_Timber_Clad ;
+	rvt:id "234869" ;
+	rvt:guid "88b03b05-80d3-484f-8022-471f61604c8d-00039575" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl19V5e" .
+inst:ścian_3ZGD7y6S5209%24mGLl180K2
+	a bot:Element , inst:Wall_-_Timber_Clad ;
+	rvt:id "418079" ;
+	rvt:guid "72678df9-14a3-4aee-a80e-94a8e55a0926-0006611f" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl180K2" .
+inst:ścian_3ZGD7y6S5209%24mGLl181L_
+	a bot:Element , inst:Wall_-_Timber_Clad ;
+	rvt:id "422243" ;
+	rvt:guid "59371552-5800-43eb-9ba3-609565158fc5-00067163" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl181L_" .
+inst:ścian_3ZGD7y6S5209%24mGLl1812c
+	a bot:Element , inst:SH_Curtain_wall ;
+	rvt:id "423099" ;
+	rvt:guid "59371552-5800-43eb-9ba3-609565158fc5-000674bb" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1812c" .
+inst:ścian_3ZGD7y6S5209%24mGLl181%247
+	a bot:Element , inst:Interior_-_165_Partition_1-hr ;
+	rvt:id "424922" ;
+	rvt:guid "59371552-5800-43eb-9ba3-609565158fc5-00067bda" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl181$7" .
+inst:ścian_3ZGD7y6S5209%24mGLl181iC
+	a bot:Element , inst:Interior_-_165_Partition_1-hr ;
+	rvt:id "425745" ;
+	rvt:guid "7fcc8dca-3132-4323-9d41-faf5184b4f26-00067f11" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl181iC" .
+inst:ścian_3ZGD7y6S5209%24mGLl18E19
+	a bot:Element , inst:Wall_-_Timber_Clad ;
+	rvt:id "427092" ;
+	rvt:guid "c85e5be0-d8d5-4148-836f-b55e711ef373-00068454" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl18E19" .
+inst:ścian_3ZGD7y6S5209%24mGLl18Eun
+	a bot:Element , inst:SIP_202mm_Wall_-_conc_clad ;
+	rvt:id "428588" ;
+	rvt:guid "c85e5be0-d8d5-4148-836f-b55e711ef373-00068a2c" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl18Eun" .
+inst:ścian_3ZGD7y6S5209%24mGLl18ExK
+	a bot:Element , inst:SIP_202mm_Wall_-_conc_clad ;
+	rvt:id "428745" ;
+	rvt:guid "c85e5be0-d8d5-4148-836f-b55e711ef373-00068ac9" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl18ExK" .
+inst:ścian_3ZGD7y6S5209%24mGLl18ExW
+	a bot:Element , inst:SH_Curtain_wall ;
+	rvt:id "428797" ;
+	rvt:guid "c85e5be0-d8d5-4148-836f-b55e711ef373-00068afd" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl18ExW" .
+inst:ścian_3ZGD7y6S5209%24mGLl18EkH
+	a bot:Element , inst:Interior_-_Partition ;
+	rvt:id "429964" ;
+	rvt:guid "2fc77d67-1af0-4a43-aa66-c544d411df04-00068f8c" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl18EkH" .
+inst:ścian_3ZGD7y6S5209%24mGLl18Elj
+	a bot:Element , inst:Interior_-_Partition ;
+	rvt:id "430064" ;
+	rvt:guid "2fc77d67-1af0-4a43-aa66-c544d411df04-00068ff0" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl18Elj" .
+inst:ścian_3ZGD7y6S5209%24mGLl18FJp
+	a bot:Element , inst:Interior_-_Partition ;
+	rvt:id "430318" ;
+	rvt:guid "2fc77d67-1af0-4a43-aa66-c544d411df04-000690ee" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl18FJp" .
+inst:ścian_3ZGD7y6S5209%24mGLl18FK4
+	a bot:Element , inst:Interior_-_Partition ;
+	rvt:id "430361" ;
+	rvt:guid "2fc77d67-1af0-4a43-aa66-c544d411df04-00069119" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl18FK4" .
+inst:ścian_3ZGD7y6S5209%24mGLl18FLH
+	a bot:Element , inst:Interior_-_Partition ;
+	rvt:id "430412" ;
+	rvt:guid "2fc77d67-1af0-4a43-aa66-c544d411df04-0006914c" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl18FLH" .
+inst:ścian_3ZGD7y6S5209%24mGLl18FSM
+	a bot:Element , inst:Interior_-_Partition ;
+	rvt:id "430859" ;
+	rvt:guid "2fc77d67-1af0-4a43-aa66-c544d411df04-0006930b" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl18FSM" .
+inst:ścian_3ZGD7y6S5209%24mGLl18Umn
+	a bot:Element , inst:CL_W1 ;
+	rvt:id "493612" ;
+	rvt:guid "17836a3c-e764-47fa-a2e0-08216444f621-0007882c" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl18Umn" .
+inst:ścian_3ZGD7y6S5209%24mGLl18UoS
+	a bot:Element , inst:CL_W1 ;
+	rvt:id "493697" ;
+	rvt:guid "17836a3c-e764-47fa-a2e0-08216444f621-00078881" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl18UoS" .
+inst:ścian_3ZGD7y6S5209%24mGLl18Up3
+	a bot:Element , inst:CL_W1 ;
+	rvt:id "493790" ;
+	rvt:guid "17836a3c-e764-47fa-a2e0-08216444f621-000788de" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl18Up3" .
+inst:ścian_3ZGD7y6S5209%24mGLl18Uqg
+	a bot:Element , inst:Foundation_-_300mm_Concrete ;
+	rvt:id "493879" ;
+	rvt:guid "17836a3c-e764-47fa-a2e0-08216444f621-00078937" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl18Uqg" .
+inst:ścian_3ZGD7y6S5209%24mGLl18VEP
+	a bot:Element , inst:Interior_-_Partition ;
+	rvt:id "497540" ;
+	rvt:guid "6dd03812-90e2-4279-9751-5fbc3584962d-00079784" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl18VEP" .
+inst:ścian_3ZGD7y6S5209%24mGLl18TuF
+	a bot:Element , inst:Interior_-_Partition ;
+	rvt:id "506386" ;
+	rvt:guid "96834e54-f091-4317-9b1a-bbe8b647201d-0007ba12" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl18TuF" .
+inst:ścian_3ZGD7y6S5209%24mGLl18T_m
+	a bot:Element , inst:Interior_-_Partition ;
+	rvt:id "506797" ;
+	rvt:guid "96834e54-f091-4317-9b1a-bbe8b647201d-0007bbad" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl18T_m" .
+inst:ścian_3ZGD7y6S5209%24mGLl1BdCV
+	a bot:Element , inst:SIP_202mm_Wall_-_conc_clad ;
+	rvt:id "530178" ;
+	rvt:guid "c95e858d-9206-4eac-9a88-fccee0e2b73b-00081702" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1BdCV" .
+inst:ścian_3ZGD7y6S5209%24mGLl1BqCy
+	a bot:Element , inst:Retaining_-_300mm_Concrete ;
+	rvt:id "599841" ;
+	rvt:guid "fe746f97-9f89-4685-8fa8-a4525719f180-00092721" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1BqCy" .
+inst:ścian_3ZGD7y6S5209%24mGLl1BqD%24
+	a bot:Element , inst:Retaining_-_300mm_Concrete ;
+	rvt:id "599906" ;
+	rvt:guid "fe746f97-9f89-4685-8fa8-a4525719f180-00092762" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1BqD$" .
+inst:ścian_3ZGD7y6S5209%24mGLl1BqEI
+	a bot:Element , inst:Retaining_-_300mm_Concrete ;
+	rvt:id "599951" ;
+	rvt:guid "fe746f97-9f89-4685-8fa8-a4525719f180-0009278f" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1BqEI" .
+inst:ścian_3ZGD7y6S5209%24mGLl1B%24Lb
+	a bot:Element , inst:CL_W1 ;
+	rvt:id "627064" ;
+	rvt:guid "5b7ac240-e9a7-43b2-b6bf-246956549a40-00099178" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1B$Lb" .
+inst:ścian_3ZGD7y6S5209%24mGLl1B%240C
+	a bot:Element , inst:CL_W1 ;
+	rvt:id "627729" ;
+	rvt:guid "5b7ac240-e9a7-43b2-b6bf-246956549a40-00099411" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1B$0C" .
+inst:ścian_3ZGD7y6S5209%24mGLl1B%24Cs
+	a bot:Element , inst:CL_W1 ;
+	rvt:id "628523" ;
+	rvt:guid "5b7ac240-e9a7-43b2-b6bf-246956549a40-0009972b" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1B$Cs" .
+inst:ścian_3ZGD7y6S5209%24mGLl1B6Im
+	a bot:Element , inst:Wall_-_Timber_Clad ;
+	rvt:id "655533" ;
+	rvt:guid "87beca50-3847-4f14-8281-4eb8890e91b0-000a00ad" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1B6Im" .
+inst:ścian_3ZGD7y6S5209%24mGLl1BDiE
+	a bot:Element , inst:SH_Curtain_wall ;
+	rvt:id "704275" ;
+	rvt:guid "555aa063-b8a7-4b4f-ae07-ad835f8857bb-000abf13" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1BDiE" .
+inst:ścian_3ZGD7y6S5209%24mGLl1BAYN
+	a bot:Element , inst:SH_Curtain_wall ;
+	rvt:id "707722" ;
+	rvt:guid "e2eeab38-f437-4dce-846b-cb64191c9fcc-000acc8a" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1BAYN" .
+inst:ścian_3ZGD7y6S5209%24mGLl1BAdb
+	a bot:Element , inst:SH_Curtain_wall ;
+	rvt:id "708088" ;
+	rvt:guid "e2eeab38-f437-4dce-846b-cb64191c9fcc-000acdf8" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1BAdb" .
+inst:ścian_3ZGD7y6S5209%24mGLl1BBPW
+	a bot:Element , inst:SH_Curtain_wall ;
+	rvt:id "709245" ;
+	rvt:guid "e2eeab38-f437-4dce-846b-cb64191c9fcc-000ad27d" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1BBPW" .
+inst:ścian_3ZGD7y6S5209%24mGLl1BGOG
+	a bot:Element , inst:Retaining_-_300mm_Concrete ;
+	rvt:id "745997" ;
+	rvt:guid "a03add59-4d19-48e3-b25b-2f947f402211-000b620d" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1BGOG" .
+inst:ścian_3ZGD7y6S5209%24mGLl1BGRc
+	a bot:Element , inst:Retaining_-_300mm_Concrete ;
+	rvt:id "746235" ;
+	rvt:guid "a03add59-4d19-48e3-b25b-2f947f402211-000b62fb" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1BGRc" .
+inst:ścian_3ZGD7y6S5209%24mGLl1BG10
+	a bot:Element , inst:Retaining_-_300mm_Concrete ;
+	rvt:id "746589" ;
+	rvt:guid "a03add59-4d19-48e3-b25b-2f947f402211-000b645d" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1BG10" .
+inst:ścian_3ZGD7y6S5209%24mGLl1BG2N
+	a bot:Element , inst:Retaining_-_300mm_Concrete ;
+	rvt:id "746634" ;
+	rvt:guid "a03add59-4d19-48e3-b25b-2f947f402211-000b648a" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1BG2N" .
+inst:ścian_3ZGD7y6S5209%24mGLl1BG4J
+	a bot:Element , inst:Retaining_-_300mm_Concrete ;
+	rvt:id "746766" ;
+	rvt:guid "a03add59-4d19-48e3-b25b-2f947f402211-000b650e" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1BG4J" .
+inst:ścian_3ZGD7y6S5209%24mGLl1BSfE
+	a bot:Element , inst:Retaining_-_300mm_Concrete ;
+	rvt:id "765523" ;
+	rvt:guid "c82e0dd9-31e8-407e-a294-c30431c2fda3-000bae53" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1BSfE" .
+inst:ścian_3ZGD7y6S5209%24mGLl1BSgf
+	a bot:Element , inst:Retaining_-_300mm_Concrete ;
+	rvt:id "765620" ;
+	rvt:guid "c82e0dd9-31e8-407e-a294-c30431c2fda3-000baeb4" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1BSgf" .
+inst:ścian_3ZGD7y6S5209%24mGLl1BTsd
+	a bot:Element , inst:Interior_-_Partition ;
+	rvt:id "768442" ;
+	rvt:guid "3195d1cb-ca2c-4181-b9c0-51da296667aa-000bb9ba" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1BTsd" .
+inst:ścian_3ZGD7y6S5209%24mGLl1Ae7F
+	a bot:Element , inst:Wall_-_Timber_Clad ;
+	rvt:id "845266" ;
+	rvt:guid "f565bef9-7d27-4781-b8d4-60f4a6034d87-000ce5d2" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1Ae7F" .
+inst:ścian_3ZGD7y6S5209%24mGLl1AeX6
+	a bot:Element , inst:SH_Curtain_wall ;
+	rvt:id "846939" ;
+	rvt:guid "98e2f96c-ccbd-4abb-a697-e7e5136106ee-000cec5b" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1AeX6" .
+inst:ścian_3ZGD7y6S5209%24mGLl1AefH
+	a bot:Element , inst:SH_Curtain_wall ;
+	rvt:id "847436" ;
+	rvt:guid "98e2f96c-ccbd-4abb-a697-e7e5136106ee-000cee4c" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1AefH" .
+inst:ścian_3ZGD7y6S5209%24mGLl1Af2L
+	a bot:Element , inst:Wall_-_Timber_Clad ;
+	rvt:id "849032" ;
+	rvt:guid "98e2f96c-ccbd-4abb-a697-e7e5136106ee-000cf488" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1Af2L" .
+inst:ścian_3ZGD7y6S5209%24mGLl1AxAO
+	a bot:Element , inst:Interior_-_165_Partition_1-hr ;
+	rvt:id "906885" ;
+	rvt:guid "b3a4a465-08e5-441a-bd3e-d967e546d52e-000dd685" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1AxAO" .
+inst:ścian_3ZGD7y6S5209%24mGLl1A2lI
+	a bot:Element , inst:Interior_-_Partition ;
+	rvt:id "937935" ;
+	rvt:guid "bac06658-19d8-494b-b87a-559081499f8f-000e4fcf" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1A2lI" .
+inst:ścian_3ZGD7y6S5209%24mGLl1A3V3
+	a bot:Element , inst:Interior_-_Partition ;
+	rvt:id "938974" ;
+	rvt:guid "bac06658-19d8-494b-b87a-559081499f8f-000e53de" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1A3V3" .
+inst:ścian_3ZGD7y6S5209%24mGLl1A31H
+	a bot:Element , inst:Interior_-_Partition ;
+	rvt:id "939084" ;
+	rvt:guid "bac06658-19d8-494b-b87a-559081499f8f-000e544c" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1A31H" .
+inst:ścian_3ZGD7y6S5209%24mGLl1A8Dj
+	a bot:Element , inst:Interior_-_Partition ;
+	rvt:id "976752" ;
+	rvt:guid "ab343b7e-3705-4b87-bacc-33c06a6cee1d-000ee770" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1A8Dj" .
+inst:ścian_3ZGD7y6S5209%24mGLl1A8pm
+	a bot:Element , inst:Cavity_wall_sliders ;
+	rvt:id "977133" ;
+	rvt:guid "ab343b7e-3705-4b87-bacc-33c06a6cee1d-000ee8ed" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1A8pm" .
+inst:ścian_3ZGD7y6S5209%24mGLl1A8ty
+	a bot:Element , inst:SH_Curtain_wall ;
+	rvt:id "977377" ;
+	rvt:guid "ab343b7e-3705-4b87-bacc-33c06a6cee1d-000ee9e1" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1A8ty" .
+
+# FLOORS
+inst:strop_3ZGD7y6S5209%24mGLl19DQv
+	a bot:Element , inst:Generic_150mm ;
+	rvt:id "176804" ;
+	rvt:guid "203cff26-4c9d-4eb4-93e5-28d28a01f256-0002b2a4" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl19DQv" .
+inst:strop_3ZGD7y6S5209%24mGLl180MQ
+	a bot:Element , inst:Generic_300 ;
+	rvt:id "418183" ;
+	rvt:guid "d85573c2-f8d5-46ae-966a-ac82fa18f500-00066187" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl180MQ" .
+inst:strop_3ZGD7y6S5209%24mGLl18Uhb
+	a bot:Element , inst:Concrete-Domestic_425mm ;
+	rvt:id "495352" ;
+	rvt:guid "17836a3c-e764-47fa-a2e0-08216444f621-00078ef8" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl18Uhb" .
+inst:strop_3ZGD7y6S5209%24mGLl18RQs
+	a bot:Element , inst:Timber_Suspended_Floor ;
+	rvt:id "512683" ;
+	rvt:guid "1970f67d-62ee-4fc6-9008-0a9f00762fe0-0007d2ab" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl18RQs" .
+inst:strop_3ZGD7y6S5209%24mGLl1BWIw
+	a bot:Element , inst:Generic_300 ;
+	rvt:id "549031" ;
+	rvt:guid "5e8712a2-e372-44b6-9e73-0aaa430558ee-000860a7" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1BWIw" .
+inst:strop_3ZGD7y6S5209%24mGLl1BW5o
+	a bot:Element , inst:Generic_150mm ;
+	rvt:id "550255" ;
+	rvt:guid "5e8712a2-e372-44b6-9e73-0aaa430558ee-0008656f" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1BW5o" .
+inst:strop_3ZGD7y6S5209%24mGLl1BuRv
+	a bot:Element , inst:Insitu_Concrete_225mm ;
+	rvt:id "647908" ;
+	rvt:guid "66314231-2860-4f9f-87a8-f581c5b96b2f-0009e2e4" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1BuRv" .
+inst:strop_3ZGD7y6S5209%24mGLl1BSyE
+	a bot:Element , inst:Insitu_Concrete_225mm ;
+	rvt:id "764691" ;
+	rvt:guid "c82e0dd9-31e8-407e-a294-c30431c2fda3-000bab13" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1BSyE" .
+inst:fundamenty_konstrukcyjn_3ZGD7y6S5209%24mGLl1BTQR
+	a bot:Element , inst:150mm_Foundation_Slab ;
+	rvt:id "766598" ;
+	rvt:guid "c82e0dd9-31e8-407e-a294-c30431c2fda3-000bb286" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1BTQR" .
+
+# WINDOWS & DOORS
+inst:drzw_3ZGD7y6S5209%24mGLl181PV
+	a bot:Element ;
+	rvt:id "422466" ;
+	rvt:guid "59371552-5800-43eb-9ba3-609565158fc5-00067242" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl181PV" .
+inst:drzw_3ZGD7y6S5209%24mGLl1813U
+	a bot:Element ;
+	rvt:id "423107" ;
+	rvt:guid "59371552-5800-43eb-9ba3-609565158fc5-000674c3" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1813U" .
+inst:drzw_3ZGD7y6S5209%24mGLl181bH
+	a bot:Element ;
+	rvt:id "425292" ;
+	rvt:guid "7fcc8dca-3132-4323-9d41-faf5184b4f26-00067d4c" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl181bH" .
+inst:drzw_3ZGD7y6S5209%24mGLl18FU8
+	a bot:Element ;
+	rvt:id "430997" ;
+	rvt:guid "2fc77d67-1af0-4a43-aa66-c544d411df04-00069395" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl18FU8" .
+inst:drzw_3ZGD7y6S5209%24mGLl18FV5
+	a bot:Element ;
+	rvt:id "431064" ;
+	rvt:guid "2fc77d67-1af0-4a43-aa66-c544d411df04-000693d8" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl18FV5" .
+inst:drzw_3ZGD7y6S5209%24mGLl18F0r
+	a bot:Element ;
+	rvt:id "431144" ;
+	rvt:guid "2fc77d67-1af0-4a43-aa66-c544d411df04-00069428" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl18F0r" .
+inst:drzw_3ZGD7y6S5209%24mGLl18F13
+	a bot:Element ;
+	rvt:id "431198" ;
+	rvt:guid "2fc77d67-1af0-4a43-aa66-c544d411df04-0006945e" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl18F13" .
+inst:okn_3ZGD7y6S5209%24mGLl189yQ
+	a bot:Element ;
+	rvt:id "457479" ;
+	rvt:guid "6cbabf1d-e8d0-47f0-ac4d-9a7923128d37-0006fb07" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl189yQ" .
+inst:okn_3ZGD7y6S5209%24mGLl189yZ
+	a bot:Element ;
+	rvt:id "457534" ;
+	rvt:guid "6cbabf1d-e8d0-47f0-ac4d-9a7923128d37-0006fb3e" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl189yZ" .
+inst:okn_3ZGD7y6S5209%24mGLl189zR
+	a bot:Element ;
+	rvt:id "457542" ;
+	rvt:guid "6cbabf1d-e8d0-47f0-ac4d-9a7923128d37-0006fb46" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl189zR" .
+inst:okn_3ZGD7y6S5209%24mGLl18Gmb
+	a bot:Element ;
+	rvt:id "485432" ;
+	rvt:guid "0e567bfb-4f86-412b-af6a-7a1cdb731324-00076838" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl18Gmb" .
+inst:drzw_3ZGD7y6S5209%24mGLl18GnH
+	a bot:Element ;
+	rvt:id "485452" ;
+	rvt:guid "0e567bfb-4f86-412b-af6a-7a1cdb731324-0007684c" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl18GnH" .
+inst:drzw_3ZGD7y6S5209%24mGLl18Gqo
+	a bot:Element ;
+	rvt:id "485679" ;
+	rvt:guid "0e567bfb-4f86-412b-af6a-7a1cdb731324-0007692f" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl18Gqo" .
+inst:okn_3ZGD7y6S5209%24mGLl18H6i
+	a bot:Element ;
+	rvt:id "488881" ;
+	rvt:guid "4269d745-d78a-4cca-860f-a55b170715ad-000775b1" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl18H6i" .
+inst:okn_3ZGD7y6S5209%24mGLl18H9x
+	a bot:Element ;
+	rvt:id "489062" ;
+	rvt:guid "4269d745-d78a-4cca-860f-a55b170715ad-00077666" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl18H9x" .
+inst:okn_3ZGD7y6S5209%24mGLl18VrB
+	a bot:Element ;
+	rvt:id "498006" ;
+	rvt:guid "6dd03812-90e2-4279-9751-5fbc3584962d-00079956" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl18VrB" .
+inst:drzw_3ZGD7y6S5209%24mGLl18Tnh
+	a bot:Element ;
+	rvt:id "505974" ;
+	rvt:guid "96834e54-f091-4317-9b1a-bbe8b647201d-0007b876" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl18Tnh" .
+inst:okn_3ZGD7y6S5209%24mGLl1BX6I
+	a bot:Element ;
+	rvt:id "554383" ;
+	rvt:guid "26038d85-c9ba-4b4e-a9e7-45840812e60d-0008758f" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1BX6I" .
+inst:drzw_3ZGD7y6S5209%24mGLl1BDi9
+	a bot:Element ;
+	rvt:id "704276" ;
+	rvt:guid "555aa063-b8a7-4b4f-ae07-ad835f8857bb-000abf14" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1BDi9" .
+inst:drzw_3ZGD7y6S5209%24mGLl1BDi3
+	a bot:Element ;
+	rvt:id "704286" ;
+	rvt:guid "555aa063-b8a7-4b4f-ae07-ad835f8857bb-000abf1e" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1BDi3" .
+inst:okn_3ZGD7y6S5209%24mGLl1BABj
+	a bot:Element ;
+	rvt:id "706288" ;
+	rvt:guid "95f3421a-5ae4-44aa-8d80-6871d132d631-000ac6f0" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1BABj" .
+inst:drzw_3ZGD7y6S5209%24mGLl1BBPZ
+	a bot:Element ;
+	rvt:id "709246" ;
+	rvt:guid "e2eeab38-f437-4dce-846b-cb64191c9fcc-000ad27e" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1BBPZ" .
+inst:okn_3ZGD7y6S5209%24mGLl1BLvm
+	a bot:Element ;
+	rvt:id "735853" ;
+	rvt:guid "80c6b7e4-2dd7-4a4e-ae16-489c86c3eac2-000b3a6d" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1BLvm" .
+inst:okn_3ZGD7y6S5209%24mGLl1BL_5
+	a bot:Element ;
+	rvt:id "736152" ;
+	rvt:guid "80c6b7e4-2dd7-4a4e-ae16-489c86c3eac2-000b3b98" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1BL_5" .
+inst:okn_3ZGD7y6S5209%24mGLl1BL%242
+	a bot:Element ;
+	rvt:id "736223" ;
+	rvt:guid "80c6b7e4-2dd7-4a4e-ae16-489c86c3eac2-000b3bdf" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1BL$2" .
+inst:okn_3ZGD7y6S5209%24mGLl1BLXN
+	a bot:Element ;
+	rvt:id "736330" ;
+	rvt:guid "80c6b7e4-2dd7-4a4e-ae16-489c86c3eac2-000b3c4a" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1BLXN" .
+inst:okn_3ZGD7y6S5209%24mGLl1BJXN
+	a bot:Element ;
+	rvt:id "744522" ;
+	rvt:guid "80c6b7e4-2dd7-4a4e-ae16-489c86c3eac2-000b5c4a" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1BJXN" .
+inst:okn_3ZGD7y6S5209%24mGLl1BJXM
+	a bot:Element ;
+	rvt:id "744523" ;
+	rvt:guid "80c6b7e4-2dd7-4a4e-ae16-489c86c3eac2-000b5c4b" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1BJXM" .
+inst:okn_3ZGD7y6S5209%24mGLl1BJXH
+	a bot:Element ;
+	rvt:id "744524" ;
+	rvt:guid "80c6b7e4-2dd7-4a4e-ae16-489c86c3eac2-000b5c4c" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1BJXH" .
+inst:okn_3ZGD7y6S5209%24mGLl1BJXG
+	a bot:Element ;
+	rvt:id "744525" ;
+	rvt:guid "80c6b7e4-2dd7-4a4e-ae16-489c86c3eac2-000b5c4d" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1BJXG" .
+inst:drzw_3ZGD7y6S5209%24mGLl1AxAa
+	a bot:Element ;
+	rvt:id "906937" ;
+	rvt:guid "b3a4a465-08e5-441a-bd3e-d967e546d52e-000dd6b9" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1AxAa" .
+inst:drzw_3ZGD7y6S5209%24mGLl1A3Ed
+	a bot:Element ;
+	rvt:id "939962" ;
+	rvt:guid "bac06658-19d8-494b-b87a-559081499f8f-000e57ba" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1A3Ed" .
+inst:drzw_3ZGD7y6S5209%24mGLl1A3oW
+	a bot:Element ;
+	rvt:id "940221" ;
+	rvt:guid "bac06658-19d8-494b-b87a-559081499f8f-000e58bd" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl1A3oW" .
+
+### STOREYS ###
+inst:poziom_3ZGD7y6S5209%24mGLl19cKg
+	a bot:Storey ;
+	rvt:id "311" ;
+	rvt:guid "e3e052f9-0156-11d5-9301-0000863f27ad-00000137" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl19cKg" .
+inst:poziom_3ZGD7y6S5209%24mGLl19cQh
+	a bot:Storey ;
+	rvt:id "694" ;
+	rvt:guid "458c0e49-01bb-11d5-9302-0000863f27ad-000002b6" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl19cQh" .
+inst:poziom_3ZGD7y6S5209%24mGLl19MG8
+	a bot:Storey ;
+	rvt:id "196629" ;
+	rvt:guid "ef57b02a-5e81-49e7-93bb-ae5f002d921c-00030015" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl19MG8" .
+inst:poziom_3ZGD7y6S5209%24mGLl19Tgo
+	a bot:Storey ;
+	rvt:id "245423" ;
+	rvt:guid "ad0aad84-b47a-45ab-9e4a-7bfad0caa3be-0003beaf" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl19Tgo" .
+inst:poziom_3ZGD7y6S5209%24mGLl18QYF
+	a bot:Storey ;
+	rvt:id "511122" ;
+	rvt:guid "656284ae-d84a-4c5c-ae16-d638fa151c7e-0007cc92" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl18QYF" .
+inst:poziom_3ZGD7y6S5209%24mGLl18RZR
+	a bot:Storey ;
+	rvt:id "515270" ;
+	rvt:guid "079d150e-b61b-46bb-a991-2bbcfc2d317a-0007dcc6" ;
+	rvt:ifcguid "3ZGD7y6S5209$mGLl18RZR" .
+
+### SPACES ###
+
+### RELATIONSHIPS ###
+
+# WINDOWS AND DOORS HOSTED IN A WALL
+inst:ścian_3ZGD7y6S5209%24mGLl181L_ bot:hasSubElement inst:drzw_3ZGD7y6S5209%24mGLl181PV .
+inst:ścian_3ZGD7y6S5209%24mGLl1812c bot:hasSubElement inst:drzw_3ZGD7y6S5209%24mGLl1813U .
+inst:ścian_3ZGD7y6S5209%24mGLl181%247 bot:hasSubElement inst:drzw_3ZGD7y6S5209%24mGLl181bH .
+inst:ścian_3ZGD7y6S5209%24mGLl18Elj bot:hasSubElement inst:drzw_3ZGD7y6S5209%24mGLl18FU8 .
+inst:ścian_3ZGD7y6S5209%24mGLl18Elj bot:hasSubElement inst:drzw_3ZGD7y6S5209%24mGLl18FV5 .
+inst:ścian_3ZGD7y6S5209%24mGLl18FLH bot:hasSubElement inst:drzw_3ZGD7y6S5209%24mGLl18F0r .
+inst:ścian_3ZGD7y6S5209%24mGLl18FJp bot:hasSubElement inst:drzw_3ZGD7y6S5209%24mGLl18F13 .
+inst:ścian_3ZGD7y6S5209%24mGLl18ExK bot:hasSubElement inst:okn_3ZGD7y6S5209%24mGLl189yQ .
+inst:ścian_3ZGD7y6S5209%24mGLl18ExK bot:hasSubElement inst:okn_3ZGD7y6S5209%24mGLl189yZ .
+inst:ścian_3ZGD7y6S5209%24mGLl18ExK bot:hasSubElement inst:okn_3ZGD7y6S5209%24mGLl189zR .
+inst:ścian_3ZGD7y6S5209%24mGLl18Eun bot:hasSubElement inst:okn_3ZGD7y6S5209%24mGLl18Gmb .
+inst:ścian_3ZGD7y6S5209%24mGLl18ExW bot:hasSubElement inst:drzw_3ZGD7y6S5209%24mGLl18GnH .
+inst:ścian_3ZGD7y6S5209%24mGLl18EkH bot:hasSubElement inst:drzw_3ZGD7y6S5209%24mGLl18Gqo .
+inst:ścian_3ZGD7y6S5209%24mGLl18Eun bot:hasSubElement inst:okn_3ZGD7y6S5209%24mGLl18VrB .
+inst:ścian_3ZGD7y6S5209%24mGLl18FSM bot:hasSubElement inst:drzw_3ZGD7y6S5209%24mGLl18Tnh .
+inst:ścian_3ZGD7y6S5209%24mGLl18Eun bot:hasSubElement inst:okn_3ZGD7y6S5209%24mGLl1BX6I .
+inst:ścian_3ZGD7y6S5209%24mGLl1BDiE bot:hasSubElement inst:drzw_3ZGD7y6S5209%24mGLl1BDi9 .
+inst:ścian_3ZGD7y6S5209%24mGLl1BDiE bot:hasSubElement inst:drzw_3ZGD7y6S5209%24mGLl1BDi3 .
+inst:ścian_3ZGD7y6S5209%24mGLl18ExK bot:hasSubElement inst:okn_3ZGD7y6S5209%24mGLl1BABj .
+inst:ścian_3ZGD7y6S5209%24mGLl1BBPW bot:hasSubElement inst:drzw_3ZGD7y6S5209%24mGLl1BBPZ .
+inst:ścian_3ZGD7y6S5209%24mGLl1Af2L bot:hasSubElement inst:okn_3ZGD7y6S5209%24mGLl1BLvm .
+inst:ścian_3ZGD7y6S5209%24mGLl1Af2L bot:hasSubElement inst:okn_3ZGD7y6S5209%24mGLl1BL_5 .
+inst:ścian_3ZGD7y6S5209%24mGLl1Af2L bot:hasSubElement inst:okn_3ZGD7y6S5209%24mGLl1BL%242 .
+inst:ścian_3ZGD7y6S5209%24mGLl1Af2L bot:hasSubElement inst:okn_3ZGD7y6S5209%24mGLl1BLXN .
+inst:ścian_3ZGD7y6S5209%24mGLl18E19 bot:hasSubElement inst:okn_3ZGD7y6S5209%24mGLl1BJXN .
+inst:ścian_3ZGD7y6S5209%24mGLl18E19 bot:hasSubElement inst:okn_3ZGD7y6S5209%24mGLl1BJXM .
+inst:ścian_3ZGD7y6S5209%24mGLl18E19 bot:hasSubElement inst:okn_3ZGD7y6S5209%24mGLl1BJXH .
+inst:ścian_3ZGD7y6S5209%24mGLl18E19 bot:hasSubElement inst:okn_3ZGD7y6S5209%24mGLl1BJXG .
+inst:ścian_3ZGD7y6S5209%24mGLl19Mn0 bot:hasSubElement inst:drzw_3ZGD7y6S5209%24mGLl1AxAa .
+inst:ścian_3ZGD7y6S5209%24mGLl18Elj bot:hasSubElement inst:drzw_3ZGD7y6S5209%24mGLl1A3Ed .
+inst:ścian_3ZGD7y6S5209%24mGLl18Elj bot:hasSubElement inst:drzw_3ZGD7y6S5209%24mGLl1A3oW .
+
+# ROOMS AT EACH STOREY
+
+# ELEMENTS ADJACENT TO ROOMS
